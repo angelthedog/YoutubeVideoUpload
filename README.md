@@ -1,6 +1,6 @@
-# YouTube-like Web Application
+# YouTube Upload Web Application
 
-This is a web application that provides a YouTube-like experience, allowing users to log in with their Google accounts and upload videos to their YouTube channels.
+This is a web application that provides a YouTube Upload experience, allowing users to log in with their Google accounts and upload videos to their YouTube channels.
 
 ## Features
 
@@ -12,9 +12,9 @@ This is a web application that provides a YouTube-like experience, allowing user
 
 1. Clone the repository and navigate to the project directory.
 2. Install the dependencies by running `npm install`.
-3. Obtain a Google API client ID and client secret, and update the corresponding values in the `index.js` file.
+3. Obtain a Google API client ID and client secret, and update the corresponding values in .env file.
 4. Start the development server by running `npm run dev`.
-5. Open your web browser and navigate to `http://localhost:3000/login` to begin the Google SSO authentication flow.
+5. Open your web browser and navigate to `http://localhost:3000/auth/login` to begin the Google SSO authentication flow.
 6. After successful login, you can upload videos using the `/upload` endpoint.
 
 ## Technologies Used
